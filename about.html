@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="./Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-------header session--------->
+    <header class="header">
+        <a href="#"><img src="./Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+
+    <!------sub-header session--------->
+    <section class="sub-header" id="sub-header">
+        <h1>About <span>Me</span></h1>
+    </section>
+
+    <!---about session-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Images/ChairImage.png" alt="">
+        </div>
+        <div class="about-text">
+            <h4><span>I'm a</span> Craft Maker</h4>
+            <p>who loves creating unique and beautiful handmade crafts. My passion lies in transforming raw materials into stunning pieces of art that tell a story, and I also love creating effective and beautiful user experiences.<br><br>
+
+            With my expertise in art, design, and craftsmanship, I strive to create pieces that not only look good but also resonate with people on a deeper level. I believe that every creation should have a purpose and a story to tell.<br><br>
+
+            When I'm not crafting, you can find me exploring new techniques, attending workshops, or simply enjoying the beauty of nature for inspiration. I'm also love baking or frying things like chin chin and puff puff, and experimenting with new recipes.</p>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>me?</span></h2>
+        </div>
+        <div class="others-img">
+            <img src="Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3><span>As</span> a Craft Maker & a Logo Creator</h3>
+            <p>
+                - I bring a unique perspective to my work, combining technical expertise with creative vision.<br><br> 
+                - I understand that each person and each project is unique, and I tailor my approach to meet individual needs.<br><br>
+                - I am committed to delivering high-quality work that not only meets but exceeds expectations.<br><br>
+            </p>
+        </div>
+        <div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="attribution">
+            <p>Made with<i class="bx bx-heart"></i>by Faozaan.</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- JS for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

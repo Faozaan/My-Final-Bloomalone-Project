@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="./Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-------header session--------->
+    <header class="header">
+        <a href="#"><img src="./Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+
+    <!------sub-header session--------->
+    <section class="sub-header" id="sub-header">
+        <h1><span>My</span> Services</h1>
+    </section>
+
+    <!-- services session -->
+<section class="services" id="sevices">
+    <div class="text-title">
+        <h2>What I <span>Do?</span></h2>
+    </div>
+    <div class="services-content">
+        <div class="box">
+            <div class="icons">
+                <i class="bx bx-palette"></i>
+            </div>
+            <h3>Art & Designs</h3>
+            <p>I create stunning art and designs that capture the essence of your vision. My approach combines creativity with a deep understanding of design principles, ensuring that every piece is not only visually appealing but also meaningful. Whether you need illustrations, graphics, or custom artwork, I am here to bring your ideas to life and i assure you that they are the best among others.</p>
+            <a href="#" class="btn">Start a project</a>
+        </div>    
+            
+
+        <div class="box">
+            <div class="icons">
+                <i class='bx  bx-landscape'  ></i> 
+            </div>
+            <h3>Logo Creation</h3>
+            <p>I create unique logos that effectively represent your brand identity. Using a blend of creativity and strategy, I ensure your logo stands out in the market. My logo design process involves understanding your brand's values and target audience to create a visual identity that resonates. I also ensure the improvement of your business visibility and recognition through effective branding.</p>
+            <a href="#" class="btn">Start a project</a>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <i class="bx bx-bed"></i>
+            </div>
+            <h3>Furniture Making</h3>
+            <p>I am a professional in the creation of different furnitures which are very decorative and they are also very comfortable to rest on. Some of the products are cushions, chairs, mattress, pillows and so on. I even in making furnitures which will blend well with the design of the building which they are placed in and they are always made with high-quality materials to ensure durability and comfort.</p>
+            <a href="#" class="btn">Start a project</a>        
+    </section>
+
+    <section class="others">
+        <div class="sub-text-title">
+            <h2>Other <span>Services</span></h2>
+        </div>
+        <div class="others-img">
+            <img src="Images/Clock.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3>Craft Making <span>Training</span></h3>
+            <p>
+                I'm passionate about helping people learn the skills they need to succeed in the world of craft making out of creativity and experience. My training courses focus on the basics of making beautiful artworks, creation of unique designs, and mastering various crafting techniques giving trainees a solid foundation to move on. At the end of my courses, students have the tools they need to create many artworks to start their artwork making journeys. And they recieve a certificate after completing these courses to be qualified to make artwork all around the world.
+            </p>
+        </div>
+        <div>
+            <a href="#" class="btn">Sign Up Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="attribution">
+            <p>Made with<i class="bx bx-heart"></i>by Faozaan.</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- JS for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

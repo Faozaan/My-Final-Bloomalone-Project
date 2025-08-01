@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="./Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-------header session--------->
+    <header class="header">
+        <a href="#"><img src="./Images/WhatsApp Image 2025-07-30 at 06.37.14_709a1086.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+
+    <!------sub-header session--------->
+    <section class="sub-header" id="sub-header">
+        <h1>Recent<span> Projects</span></h1>
+    </section>
+
+    <!-- porfolio session -->
+    <section class="portfolio" id="portfolio">
+        <div class="text-title">
+            <h2><span>Craft Making</span> Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./Images/FlowerVase.png" alt="">
+                <div class="cover">
+                    <h5>My Works and Designs</h5>
+                    <p>A great view of my magnificent projects, logos, furnitures which have the latest designs and are best used for decoration and so much more.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./Images/ChairImage.png" alt="">
+                <div class="cover">
+                    <h5>My Works and Designs</h5>
+                    <p>A great view of my magnificent projects, logos, furnitures which have the latest designs and are best used for decoration and so much more.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="text-title">
+            <h2><span>Logo Creation</span> Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./Images/Shopping.png" alt="">
+                <div class="cover">
+                    <h5>My Works and Designs</h5>
+                    <p>A great view of my magnificent projects, logos, furnitures which have the latest designs and are best used for decoration and so much more.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./Images/me.png" alt="">
+                <div class="cover">
+                    <h5>My Works and Designs</h5>
+                    <p>A great view of my magnificent projects, logos, furnitures which have the latest designs and are best used for decoration and so much more.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./Images/Clock.png" alt="">
+                <div class="cover">
+                    <h5>My Works and Designs</h5>
+                    <p>A great view of my magnificent projects, logos, furnitures which have the latest designs and are best used for decoration and so much more.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+                
+            </div>
+            <div class="row">
+                <img src="./Images/Delivery.png" alt="">
+                <div class="cover">
+                    <h5>My Works and Designs</h5>
+                    <p>A great view of my magnificent projects, logos, furnitures which have the latest designs and are best used for decoration and so much more.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="attribution">
+            <p>Made with<i class="bx bx-heart"></i>by Faozaan.</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- JS for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right = "0";
+        }
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
